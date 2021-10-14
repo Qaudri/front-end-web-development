@@ -6,6 +6,10 @@ html{
   box-sizing: border-box;
 }
 
+
+/* ## PHONES BREAKPOINT ## */
+
+
 @media screen and (max-width: 600px){
   .top_header {
     padding: 20px 0px; 
@@ -128,6 +132,7 @@ html{
     margin: auto;
     min-height: 350px;
     display: block;
+    padding: 70px 0px;
     align-items: center;
     justify-content: space-between;
   }
@@ -135,14 +140,14 @@ html{
   .top_hero_cta_container h1 {
     font-size: 2em;
     max-width: 450px;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
   }
   
   .top_hero_cta_container p {
     font-size: 1em;
     max-width: 450px;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
   }
   
@@ -155,8 +160,10 @@ html{
     font-size: 1.2em;
     max-width: 450px;
     padding: 10px 20px;
-    margin: 0px 10px;
+    margin: 20px 0px;
     border-radius: 20px;
+    display: block;
+    text-align: center;
     border: 1px solid black;
   }
   
@@ -174,7 +181,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
-    padding: 10px;
+    padding: 0px;
     width: 100%;
     border-radius: 30px;
   }
@@ -182,7 +189,17 @@ html{
 
 
 
-/* @media screen and (max-width: 600px){
+
+
+
+
+
+
+
+/* ## PORTRAIT TABLET BREAKPOINT ## */
+
+
+@media screen and (min-width: 600px){
   .top_header {
     padding: 20px 0px; 
     background-color: brown; 
@@ -282,7 +299,9 @@ html{
     background: url('../images/hero1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    /* padding: 200px; */
     height: 400px;
+    /* max-width: 400px; */
     border-radius: 30px;
   }
   
@@ -301,22 +320,23 @@ html{
     max-width: 1000px;
     margin: auto;
     min-height: 350px;
-    display: flex;
+    display: block;
+    padding: 70px 0px;
     align-items: center;
     justify-content: space-between;
   }
   
   .top_hero_cta_container h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     max-width: 450px;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
   }
   
   .top_hero_cta_container p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     max-width: 450px;
-    padding: 10px;
+    padding: 0px;
     margin: 0;
   }
   
@@ -329,8 +349,88 @@ html{
     font-size: 1.2em;
     max-width: 450px;
     padding: 10px 20px;
-    margin: 0px 10px;
+    margin: 20px 0px;
     border-radius: 20px;
+    display: block;
+    text-align: center;
+    border: 1px solid black;
+  }
+  
+  .top_hero_cta_container a:hover {
+    transition: .5s all ease-in-out;
+    border-radius: 30px;
+    background: transparent;
+    color:black;
+    border: 1px solid black;
+    padding: 10px 20px;
+  }
+  
+  .top_hero_image {
+    background: url('../images/hero1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    padding: 0px;
+    width: 100%;
+    border-radius: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ## LANDSCAPE TABLET BREAKPOINT ## */
+
+
+@media screen and (min-width: 768px){
+ 
+  .menu {
+    display: block;
+  }
+  .max_top_hero_container {
+    max-width: 1000px;
+    margin: auto;
+    min-height: 350px;
+    display: flex;
+    padding: 70px 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .top_hero_cta_container h1 {
+    font-size: 2.5em;
+    max-width: 450px;
+    padding: 0px;
+    margin: 0;
+  }
+  
+  .top_hero_cta_container p {
+    font-size: 1.1em;
+    max-width: 450px;
+    padding: 0px;
+    margin: 0;
+  }
+  
+  .top_hero_cta_container a {
+    transition: .5s all ease-in-out;
+    text-decoration: none;
+    color:white;
+    background: black;
+    width: 130px;
+    font-size: 1.2em;
+    max-width: 450px;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    display: block;
+    text-align: center;
     border: 1px solid black;
   }
   
@@ -348,8 +448,8 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 400px;
-    padding: 10px;
-    width: 400px;
+    padding: 0px;
+    width: 500px;
     border-radius: 30px;
   }
-} */
+}
