@@ -214,7 +214,7 @@ html{
     margin: auto;
     min-height: 350px;
     display: block;
-    padding: 70px 0px;
+    padding: 70px 20px;
     align-items: center;
     justify-content: space-between;
   }
@@ -227,8 +227,12 @@ html{
   } */
   .about_image{
     border-radius: 30px;
-    width: 450px;
+    /* width: 450px; */
     margin-bottom: 10px;
+  }
+
+  .about_me_image{
+    border-radius: 30px;
   }
 
   h1{
@@ -472,7 +476,7 @@ html{
   } */
   .about_image{
     border-radius: 30px;
-    width: 450px;
+    /* max-width: 450px; */
     margin-bottom: 10px;
   }
 
@@ -587,7 +591,7 @@ html{
  
   .about_image{
     border-radius: 30px;
-    max-width: 450px;
+    /* max-width: 450px; */
   }
 
   h1{
