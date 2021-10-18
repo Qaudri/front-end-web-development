@@ -216,7 +216,7 @@ html{
 
   h1{
     font-size: 2em;
-    padding: 0px;
+    padding-bottom: 20px;
     margin: 0px;
   }
 
@@ -445,7 +445,7 @@ html{
 
   h1{
     font-size: 2em;
-    padding: 0px;
+    padding-bottom: 20px;
     margin: 0px;
   }
 
@@ -556,6 +556,7 @@ html{
   h1{
     font-size: 2.5em;
     margin-left: 50px;
+    
   }
 
   p{
