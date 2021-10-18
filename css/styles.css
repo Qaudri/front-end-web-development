@@ -191,6 +191,40 @@ html{
     width: 100%;
     border-radius: 30px;
   }
+
+  .about_me {
+    max-width: 450px;
+    margin: auto;
+    min-height: 350px;
+    display: block;
+    padding: 70px 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* .about_me{
+    margin: 40px;
+    min-height: 350px;
+    align-items: center;
+    display: block;
+  } */
+  .about_image{
+    border-radius: 30px;
+    width: 450px;
+    margin-bottom: 10px;
+  }
+
+  h1{
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  p{
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 
@@ -386,6 +420,40 @@ html{
     width: 100%;
     border-radius: 30px;
   }
+
+  .about_me {
+    max-width: 450px;
+    margin: auto;
+    min-height: 350px;
+    display: block;
+    padding: 70px 0px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* .about_me{
+    margin: 40px;
+    min-height: 350px;
+    align-items: center;
+    display: block;
+  } */
+  .about_image{
+    border-radius: 30px;
+    width: 450px;
+    margin-bottom: 10px;
+  }
+
+  h1{
+    font-size: 2em;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  p{
+    font-size: 1em;
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 
@@ -464,4 +532,33 @@ html{
     width: 500px;
     border-radius: 30px;
   }
+
+  .about_me {
+    max-width: 1000px;
+    margin: auto;
+    min-height: 350px;
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px;
+    align-items: center;
+  }
+
+ .aboutsection{
+    display: flex;
+ }
+ 
+  .about_image{
+    border-radius: 30px;
+    width: 400px;
+  }
+
+  h1{
+    font-size: 2.5em;
+    margin-left: 50px;
+  }
+
+  p{
+    font-size: 1.1em;
+    margin-left: 50px;
+  }  
 }
