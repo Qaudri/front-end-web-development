@@ -545,6 +545,7 @@ html{
 
  .aboutsection{
     display: flex;
+    align-items: center;
  }
  
   .about_image{
