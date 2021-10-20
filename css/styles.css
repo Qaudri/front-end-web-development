@@ -246,6 +246,102 @@ html{
     padding: 0px;
     margin: 0px;
   }
+
+  .login_container{
+    width: 100%;
+  }
+
+  .left_section{
+    padding: 20px 40px;
+    min-height: 50vh;
+  }
+
+  .right_section{
+    width: 100%;
+    background: url('../images/hero1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+  }
+
+  .login_text h1{
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .login_text p{
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .google_signin{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #444444 !important;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 20px 0px;
+  }
+
+  .signin_line{
+    border-bottom: 1px solid #dddddd;
+    margin: 20px 0px;
+  }
+
+  .signin_email_text{
+    margin-top: -35px;
+    background-color: white;
+    padding: 5px 0px;
+    text-align: center;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form_element label{
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .form_element input{
+    border-radius: 40px;
+    outline: #aaaaaa;
+    border: 1px solid #aaaaaa;
+    padding: 10px 15px;
+    width: 90% ;
+  }
+
+  .remember_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+  }
+
+  .signin_button{
+    width: 100%;
+    border-radius: 40px;
+    background-color: brown;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    padding: 15px 0px;
+  }
+
+  .login_container a{
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
 
 
@@ -480,6 +576,10 @@ html{
     margin-bottom: 10px;
   }
 
+  .about_me_image{
+    border-radius: 30px;
+  }
+
   h1{
     font-size: 2em;
     padding-bottom: 20px;
@@ -490,6 +590,105 @@ html{
     font-size: 1em;
     padding: 0px;
     margin: 0px;
+  }
+
+  .login_container{
+    width: 100%;
+    display: flex;
+  }
+
+  .left_section{
+    padding: 20px 40px;
+    min-height: 100vh;
+    width: 60%;
+  }
+
+  .right_section{
+    width: 40%;
+    background: url('../images/hero1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+  }
+
+  .login_text h1{
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .login_text p{
+    font-size: 1.1em;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .google_signin{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #444444 !important;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 20px 0px;
+  }
+
+  .signin_line{
+    border-bottom: 1px solid #dddddd;
+    margin: 20px 0px;
+  }
+
+  .signin_email_text{
+    margin-top: -35px;
+    background-color: white;
+    padding: 5px 0px;
+    text-align: center;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form_element label{
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .form_element input{
+    border-radius: 40px;
+    outline: #aaaaaa;
+    border: 1px solid #aaaaaa;
+    padding: 10px 15px;
+    width: 90% ;
+  }
+
+  .remember_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+  }
+
+  .signin_button{
+    width: 100%;
+    border-radius: 40px;
+    background-color: brown;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    padding: 15px 0px;
+  }
+
+  .login_container a{
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
   }
 }
 
@@ -508,100 +707,225 @@ html{
 
 @media screen and (min-width: 768px){
  
-  .menu {
-    display: block;
-  }
-  .menu_button{
-    display: none;
-  }
-  
-  .max_top_hero_container {
-    max-width: 1000px;
-    margin: auto;
-    min-height: 350px;
-    display: flex;
-    padding: 70px 0px;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .top_hero_cta_container h1 {
-    font-size: 2.5em;
-    max-width: 450px;
-    padding: 0px;
-    margin: 0;
-  }
-  
-  .top_hero_cta_container p {
-    font-size: 1.1em;
-    max-width: 450px;
-    padding: 0px;
-    margin: 0;
-  }
-  
-  .top_hero_cta_container a {
-    transition: .5s all ease-in-out;
-    text-decoration: none;
-    color:white;
-    background: black;
-    width: 130px;
-    font-size: 1.2em;
-    max-width: 450px;
-    padding: 10px 20px;
-    margin: 20px 0px;
-    border-radius: 20px;
-    display: block;
-    text-align: center;
-    border: 1px solid black;
-  }
-  
-  .top_hero_cta_container a:hover {
-    transition: .5s all ease-in-out;
-    border-radius: 30px;
-    background: transparent;
-    color:black;
-    border: 1px solid black;
-    padding: 10px 20px;
-  }
-  
-  .top_hero_image {
-    background: url('../images/my_picture.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 400px;
-    padding: 0px;
-    width: 500px;
-    border-radius: 30px;
-  }
-
-  .about_me {
-    max-width: 1000px;
-    margin: auto;
-    min-height: 350px;
-    display: flex;
-    justify-content: space-between;
-    padding: 70px 0px;
-    align-items: center;
-  }
-
- .aboutsection{
-    display: flex;
-    align-items: center;
- }
- 
-  .about_image{
-    border-radius: 30px;
-    /* max-width: 450px; */
-  }
-
-  h1{
-    font-size: 2.5em;
-    margin-left: 50px;
+    .menu {
+      display: block;
+    }
+    .menu_button{
+      display: none;
+    }
     
+    .max_top_hero_container {
+      max-width: 1000px;
+      margin: auto;
+      min-height: 350px;
+      display: flex;
+      padding: 70px 0px;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .top_hero_cta_container h1 {
+      font-size: 2.5em;
+      max-width: 450px;
+      padding: 0px;
+      margin: 0;
+    }
+    
+    .top_hero_cta_container p {
+      font-size: 1.1em;
+      max-width: 450px;
+      padding: 0px;
+      margin: 0;
+    }
+    
+    .top_hero_cta_container a {
+      transition: .5s all ease-in-out;
+      text-decoration: none;
+      color:white;
+      background: black;
+      width: 130px;
+      font-size: 1.2em;
+      max-width: 450px;
+      padding: 10px 20px;
+      margin: 20px 0px;
+      border-radius: 20px;
+      display: block;
+      text-align: center;
+      border: 1px solid black;
+    }
+    
+    .top_hero_cta_container a:hover {
+      transition: .5s all ease-in-out;
+      border-radius: 30px;
+      background: transparent;
+      color:black;
+      border: 1px solid black;
+      padding: 10px 20px;
+    }
+    
+    .top_hero_image {
+      background: url('../images/my_picture.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      min-height: 400px;
+      padding: 0px;
+      width: 500px;
+      border-radius: 30px;
+    }
+
+    .about_me {
+      max-width: 1000px;
+      margin: auto;
+      min-height: 350px;
+      display: flex;
+      justify-content: space-between;
+      padding: 70px 0px;
+      align-items: center;
+    }
+
+  .aboutsection{
+      display: flex;
+      align-items: center;
+    }
+  
+    .about_image{
+      border-radius: 30px;
+      /* max-width: 450px; */
+    }
+
+    .about_me_image{
+      border-radius: 30px;
+      max-width: 3000;
+    }
+
+
+    h1{
+      font-size: 2.5em;
+      margin-left: 50px;
+      
+    }
+
+    p{
+      font-size: 1.1em;
+      margin-left: 50px;
+    }
+
+  /* .skill_section{
+    width: 100%;
+    /* display: flex; */
+  /* }
+
+  .skills_container{
+    background-color: brown;
+    width: 50%;
   }
 
-  p{
+  .skills_image{
+    background-color: black;
+    width: 50%; */
+
+  .login_container{
+    width: 100%;
+    display: flex;
+  }
+
+  .left_section{
+    padding: 20px 40px;
+    min-height: 100vh;
+    width: 50%;
+  }
+
+  .left_content{
+    max-width: 400px;
+    padding: 100px 0px;
+    margin: auto;
+  }
+
+  .right_section{
+    width: 50%;
+    background: url('../images/hero1.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+  }
+
+  .login_text h1{
+    font-size: 1.5em;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .login_text p{
     font-size: 1.1em;
-    margin-left: 50px;
-  }  
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .google_signin{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #444444 !important;
+    border: 1px solid #dddddd;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 20px 0px;
+  }
+
+  .signin_line{
+    border-bottom: 1px solid #dddddd;
+    margin: 20px 0px;
+  }
+
+  .signin_email_text{
+    margin-top: -35px;
+    background-color: white;
+    padding: 5px 0px;
+    text-align: center;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .form_element label{
+    font-weight: bold;
+    width: 100%;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .form_element input{
+    border-radius: 40px;
+    outline: #aaaaaa;
+    border: 1px solid #aaaaaa;
+    padding: 15px 25px;
+    width: 90% ;
+  }
+
+  .remember_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+  }
+
+  .signin_button{
+    width: 100%;
+    border-radius: 40px;
+    background-color: brown;
+    color: white;
+    border: 0px;
+    outline: 0px;
+    padding: 20px 0px;
+  }
+
+  .login_container a{
+    color: brown;
+    font-weight: bold;
+    text-decoration: none;
+  }
 }
