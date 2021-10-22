@@ -17,8 +17,8 @@
 var menu_button = document.getElementById("menu_btn");
 var close_button = document.getElementById("close_btn");
 
-menu_button.addEventListener("click", open_menu);
-close_button.addEventListener("click", close_menu);
+// menu_button.addEventListener("click", open_menu);
+// close_button.addEventListener("click", close_menu);
 
 function open_menu(){
     // alert("I am working")
@@ -34,4 +34,34 @@ function close_menu(){
     menu_cont.style.display = "none";
     menu_button.style.display = "block";
     close_button.style.display = "none";
+}
+
+
+// Login Script
+
+const user = {
+    email: "aquadirmuhammad@gmail.com",
+    password: "Qaudri1234"
+}
+
+let login_button = document.getElementById("login_btn")
+login_button.addEventListener("click", Login)
+
+
+function Login(){
+    if(email == user.email){
+
+            if(password == user.password){
+                alert("Welcome " + user.email)
+            }
+
+            else {
+                alert("The password you have entered is incorrect.")
+            }
+
+    }
+
+    else {
+        alert("This user does not exist!")
+    }
 }
