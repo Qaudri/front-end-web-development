@@ -50,15 +50,13 @@ login_button.addEventListener("click", Login)
 
 function Login(){
     if(email == user.email){
+        if(password == user.password){
+            alert("Welcome " + user.email)
+        }
 
-            if(password == user.password){
-                alert("Welcome " + user.email)
-            }
-
-            else {
-                alert("The password you have entered is incorrect.")
-            }
-
+        else {
+            alert("The password you have entered is incorrect.")
+        }
     }
 
     else {
